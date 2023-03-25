@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.one {
+  font-size: 20px;
+  color: red;
+}
+
+.two {
+  position: relative;
+}
+
+.three {
+  position: relative;
+  font-size: 20px;
+  color: red;
+}
+
+.one::before {
+  content: "Before Element";
+  color: red;
+}
+
+.three::after {
+  content: "After Element";
+  color: red;
+  position: absolute;
+  top: 0;
+  right: -100px;
+}
